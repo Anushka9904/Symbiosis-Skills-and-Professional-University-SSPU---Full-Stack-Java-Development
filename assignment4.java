@@ -6,15 +6,15 @@ import java.util.Scanner;
 public class assignment4 {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         
         
         System.out.print("Enter the first number: ");
-        int num1 = scanner.nextInt();
+        int num1 = sc.nextInt();
         
        
         System.out.print("Enter the second number: ");
-        int num2 = scanner.nextInt();
+        int num2 = sc.nextInt();
         
         // Swap using a temporary variable
         int temp = num1;
@@ -27,7 +27,7 @@ public class assignment4 {
         System.out.println("Second number: " + num2);
         
         
-        scanner.close();
+        sc.close();
     }
 }
 
