@@ -3,7 +3,7 @@ package Assignments;
 	import java.util.Scanner;
 	public class assignment2 {
 	public static void main(String[] args) {
-	        Scanner scanner = new Scanner(System.in);
+	        Scanner sc = new Scanner(System.in);
 	        int n;
 	        
 	        do {
@@ -41,7 +41,7 @@ package Assignments;
 	            
 	        } while (n != 5); 
 	        
-	        scanner.close();
+	        sc.close();
 	    }
 
 	    private static void Add(Scanner scanner) {
