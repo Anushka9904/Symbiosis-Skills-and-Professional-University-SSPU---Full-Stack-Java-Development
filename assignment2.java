@@ -17,7 +17,7 @@ package Assignments;
 	            System.out.print("Enter your choice (1-5): ");
 	            
 	            
-	            n = scanner.nextInt();
+	            n = sc.nextInt();
 	            
 	            switch (n) {
 	                case 1:
@@ -46,36 +46,36 @@ package Assignments;
 
 	    private static void Add(Scanner scanner) {
 	        System.out.print("Enter first number: ");
-	        double num1 = scanner.nextDouble();
+	        double num1 = sc.nextDouble();
 	        System.out.print("Enter second number: ");
-	        double num2 = scanner.nextDouble();
+	        double num2 = sc.nextDouble();
 	        double result = num1 + num2;
 	        System.out.println("Result: " + result);
 	    }
 
 	    private static void Subtract(Scanner scanner) {
 	        System.out.print("Enter first number: ");
-	        double num1 = scanner.nextDouble();
+	        double num1 = sc.nextDouble();
 	        System.out.print("Enter second number: ");
-	        double num2 = scanner.nextDouble();
+	        double num2 = sc.nextDouble();
 	        double result = num1 - num2;
 	        System.out.println("Result: " + result);
 	    }
 
 	    private static void Multiply(Scanner scanner) {
 	        System.out.print("Enter first number: ");
-	        double num1 = scanner.nextDouble();
+	        double num1 = sc.nextDouble();
 	        System.out.print("Enter second number: ");
-	        double num2 = scanner.nextDouble();
+	        double num2 = sc.nextDouble();
 	        double result = num1 * num2;
 	        System.out.println("Result: " + result);
 	    }
 
 	    private static void Divide(Scanner scanner) {
 	        System.out.print("Enter first number: ");
-	        double num1 = scanner.nextDouble();
+	        double num1 = sc.nextDouble();
 	        System.out.print("Enter second number: ");
-	        double num2 = scanner.nextDouble();
+	        double num2 = sc.nextDouble();
 	        
 	        
 	        if (num2 == 0) {
