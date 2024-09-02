@@ -87,4 +87,4 @@ package Assignments;
 	    }
 	}
 
-//double is used for initialising any no that can be decimal
+
