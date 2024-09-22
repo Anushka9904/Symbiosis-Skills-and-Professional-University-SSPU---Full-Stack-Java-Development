@@ -31,7 +31,7 @@ public class AdditionOf2Dmatrics {
 		        System.out.println("Addition of two matrices:");
 		        for (int i=0;i<row;i++) {
 		            for (int j=0;j<col;j++) {
-		                System.out.print(resultMatrix[i][j] );
+		                System.out.println(resultMatrix[i][j] );
 		            } 
 		        	}
 		     	}
